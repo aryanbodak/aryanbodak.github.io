@@ -1,0 +1,12 @@
+.row {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: linear-gradient(#57ad5b 40%, #b56044 60%);
+}
+
+.box{
+    margin: 5px;
+    border: 1px gray solid;
+
+}
