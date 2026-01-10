@@ -1,29 +1,16 @@
+const users = [];
 function dispMessage() {
-  // a=10
-  // b=20
-  // c=a+b
-  //   alert("Hello")
-  //   const user = {
-  //     name: "John",
-  //     email: "john@gmail.com",
-  //     password: "1234",
-  //   };
-  //   console.log(user.name);
-  const arr = ["Maths", "Science"];
-  console.log(arr[0]);
-  arr.push("English")
-  console.log(arr);
-  // alert(document.getElementById("txtEmail").value)
-  // lblMessage.innerHTML = document.getElementById("txtEmail").value + "-" + document.getElementById("txtPassword").value
-  //   let email = document.getElementById("txtEmail").value;
-  //   let password = document.getElementById("txtPassword").value;
-  //   if (email === "john@gmail.com" && password === "1234") {
-  //     lblMessage.innerHTML = "Welcome";
-  //   } else {
-  //     lblMessage.innerHTML = "Access Denied";
-  //   }
+  let email = document.getElementById("txtEmail").value;
+  let password = document.getElementById("txtPassword").value;
+  let found = users.find(
+    (element) => element.email === email && element.password === password
+  );
+  if (found) {
+    lblMessage.innerHTML = "Welcome";
+  } else {
+    lblMessage.innerHTML = "Access Denied";
+  }
 }
-let users = [];
 function addUser() {
   let name = document.getElementById("txtName").value;
   let email = document.getElementById("txtEmail").value;
