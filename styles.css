@@ -30,7 +30,7 @@
     text-decoration: none;
     color:rgb(0, 0, 0);
  }
-  .box{
+.box{
     margin: 10px;
     padding: 10px;
     border: 1px rgb(0, 0, 0) solid;
@@ -38,6 +38,8 @@
  }
  .box1{
     margin: 10px;
-    padding: 30px;
+    padding: 10px;
     border: 1px rgb(0, 0, 0) solid;
+    display: flex;
+    background-color: aqua;
  }
