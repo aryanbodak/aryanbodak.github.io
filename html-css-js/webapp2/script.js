@@ -27,7 +27,7 @@ const products = [
     name: "Product 5",
     desc: "This is a sample description",
     price: "$90",
-    imgUrl: "https://picsum.photos/id/164/200/200",
+    imgUrl: "https://picsum.photos/id/166/200/200",
   }
 ];
 
