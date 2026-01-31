@@ -40,7 +40,7 @@ function showProducts() {
     <h3>${e.name}</h3>
     <p>${e.desc}</p>
     <h5>${e.price}</h5>
-    <button>Add to Cart</button>
+    <button>Add Cart</button>
     </div>
       `
   })
